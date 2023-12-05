@@ -380,7 +380,7 @@ FROM ranking
 ***
 
 
-Click [here]() to move back to the 8-Week-SQL-Challenge repository!
+Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/README.md) to move back to the 8-Week-SQL-Challenge repository!
 
 
 
