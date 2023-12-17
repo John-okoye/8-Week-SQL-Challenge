@@ -1,13 +1,14 @@
 # :pizza: Case Study #2: Pizza Runner 
-![image](https://github.com/John-okoye/8-Week-SQL-Challenge/assets/123602109/961b9721-6253-4ada-86e8-f2e06ab73853)
+<p align="center">
+<img src="https://github.com/John-okoye/8-Week-SQL-Challenge/assets/123602109/961b9721-6253-4ada-86e8-f2e06ab73853" alt="Image" width="450" height="450">
 
 View the challenge website [here](https://8weeksqlchallenge.com/case-study-1/)
 
-## Table Of Contents
+## Table Of Contents  
   - [Introduction](#introduction)
-  - [Available Data](#Available-Data)
-  - [Entity Relationship Diagram](#entity-relationship-diagram)
-  - [Case Study Questions](#case-study-questions)
+  - [Available Data](#available-data)  
+- [Entity Relationship Diagram](#entity-relationship-diagram)  
+- [Case Study Questions](#case-study-questions)  
 
 ## Introduction
 Did you know that over 115 million kilograms of pizza is consumed daily worldwide??? (Well according to Wikipedia anyway…)
@@ -33,10 +34,11 @@ All datasets exist within the pizza_runner database schema - be sure to include 
 - pizza_toppings: This table contains all of the topping_name values with their corresponding topping_id value
 
 ## Entity Relationship Diagram
-![image](https://github.com/John-okoye/8-Week-SQL-Challenge/assets/123602109/f9e9c484-5875-4133-8c35-56c7731bb335)
+<p align="center">
+<img src="https://github.com/imanjokko/PizzaRunner/blob/main/images/ERD.png" alt="Image" width="700" height="350">
 
 ## Case Study Questions
-### A. Pizza Metrics
+### A. [Pizza Metrics](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Pizza%20Metrics.md)
 1. How many pizzas were ordered?
 2. How many unique customer orders were made?
 3. How many successful orders were delivered by each runner?
@@ -48,7 +50,7 @@ All datasets exist within the pizza_runner database schema - be sure to include 
 9. What was the total volume of pizzas ordered for each hour of the day?
 10. What was the volume of orders for each day of the week?
 
-### B. Runner and Customer Experience
+### B. [Runner and Customer Experience](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Runner%20and%20Customer%20Experience.md)
 1. How many runners signed up for each 1 week period? (i.e. week starts 2021-01-01)
 2. What was the average time in minutes it took for each runner to arrive at the Pizza Runner HQ to pickup the order?
 3. Is there any relationship between the number of pizzas and how long the order takes to prepare?
@@ -57,4 +59,4 @@ All datasets exist within the pizza_runner database schema - be sure to include 
 6. What was the average speed for each runner for each delivery and do you notice any trend for these values?
 7. What is the successful delivery percentage for each runner?
 
-Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Dannys%20Diner/Dannys%20Diner%20Solution.md) to view the solution solution of the case study!
+Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Pizza%20Metrics.md) to view the solution solution of the case study!
