@@ -284,7 +284,7 @@ ORDER BY runner_id
 ![image](https://github.com/John-okoye/8-Week-SQL-Challenge/assets/123602109/82d52a2f-a8fc-49bf-984e-6a35a1a2761c)
 
 ***
-
+Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/Runner%20and%20Customer%20Experience.md) to view the Runner and Customer Experience solution!
 
 
 
