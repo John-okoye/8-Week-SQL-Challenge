@@ -9,7 +9,8 @@
 </p>
 
 ## 📕  Table Of Contents
-● [🍜 Case Study #1 - Danny's Diner](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Dannys%20Diner/Dannys%20Diner%20Solution.md)
+● [🍜 Case Study #1 - Danny's Diner](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Dannys%20Diner/Dannys%20Diner%20Solution.md)  
+● [🍕 Case Study #2 - Pizza Runner](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/README.md)
 
 ---
 
@@ -23,7 +24,18 @@ Danny’s Diner is in need of your assistance to help the restaurant stay afloat
 
 ### View full case study introduction [here](https://github.com/John-okoye/8-Week-SQL-Challenge/tree/main/Case%20Study%20%231%20-%20Dannys%20Diner).
 
+---
+## 🍕 Case Study #2 - Pizza Runner
+<p align="center">
+  <img width=40% height=40%" src="https://8weeksqlchallenge.com/images/case-study-designs/2.png">
 
+Danny was scrolling through his Instagram feed when something really caught his eye - “80s Retro Styling and Pizza Is The Future!”
+
+Danny was sold on the idea, but he knew that pizza alone was not going to help him get seed funding to expand his new Pizza Empire - so he had one more genius idea to combine with it - he was going to Uberize it - and so Pizza Runner was launched!
+
+Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
+
+### View full case study introduction [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/README.md)
 ---
 
 ## ✨ Contribution
