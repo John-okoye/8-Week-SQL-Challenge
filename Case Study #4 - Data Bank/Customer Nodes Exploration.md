@@ -21,11 +21,12 @@ FROM data_bank.customer_nodes
 
 ### 2. What is the number of nodes per region?
 ```sql
-SELECT region_id,
-	   region_name,
-	   COUNT(cn.node_id)
+SELECT
+   region_id,
+   region_name,
+   COUNT(cn.node_id)
 FROM data_bank.customer_nodes AS cn
-	JOIN data_bank.regions AS r USING(region_id)
+   JOIN data_bank.regions AS r USING(region_id)
 GROUP BY region_id, region_name
 ORDER BY region_id
 ```
@@ -36,11 +37,12 @@ ORDER BY region_id
 
 ### 3. How many customers are allocated to each region?
 ```sql
-SELECT region_id,
-	   region_name,
-	   COUNT(DISTINCT cn.customer_id) AS num_customers
+SELECT
+   region_id,
+   region_name,
+   COUNT(DISTINCT cn.customer_id) AS num_customers
 FROM data_bank.customer_nodes AS cn
-	JOIN data_bank.regions AS r USING(region_id)
+   JOIN data_bank.regions AS r USING(region_id)
 GROUP BY region_id, region_name
 ```
 #### Query Result:  
@@ -54,8 +56,8 @@ WITH cte AS
 	(SELECT *,
 	   (realloc_date - start_date) AS day_diff
 FROM (SELECT *,
-		LEAD(start_date) OVER (PARTITION BY customer_id ORDER BY start_date) AS realloc_date
-		FROM data_bank.customer_nodes)	
+	LEAD(start_date) OVER (PARTITION BY customer_id ORDER BY start_date) AS realloc_date
+      FROM data_bank.customer_nodes)	
 WHERE realloc_date IS NOT NULL)
 
 SELECT ROUND(AVG(day_diff),0) AS avg_realloc_day
@@ -73,18 +75,18 @@ WITH cte AS
 	(SELECT *,
 	   (realloc_date - start_date) AS day_diff
 FROM (SELECT *,
-		LEAD(start_date) OVER (PARTITION BY customer_id ORDER BY start_date) AS realloc_date
-		FROM data_bank.customer_nodes)	
+       LEAD(start_date) OVER (PARTITION BY customer_id ORDER BY start_date) AS realloc_date
+      FROM data_bank.customer_nodes)	
 WHERE realloc_date IS NOT NULL)
 
 SELECT
-	region_name,
-	ROUND(AVG(day_diff),1) as avg_days,
-	percentile_cont(0.5) WITHIN GROUP (ORDER BY day_diff) AS median,
-    percentile_cont(0.8) WITHIN GROUP (ORDER BY day_diff) AS percentile_80,
-    percentile_cont(0.95) WITHIN GROUP (ORDER BY day_diff) AS percentile_95
+   region_name,
+   ROUND(AVG(day_diff),1) as avg_days,
+   percentile_cont(0.5) WITHIN GROUP (ORDER BY day_diff) AS median,
+   percentile_cont(0.8) WITHIN GROUP (ORDER BY day_diff) AS percentile_80,
+   percentile_cont(0.95) WITHIN GROUP (ORDER BY day_diff) AS percentile_95
 FROM cte AS cn
-	JOIN data_bank.regions AS r USING(region_id)
+   JOIN data_bank.regions AS r USING(region_id)
 WHERE end_date <= '2020-12-31'
 GROUP BY region_name
 ORDER BY region_name;
@@ -93,3 +95,5 @@ ORDER BY region_name;
 ![image](https://github.com/John-okoye/8-Week-SQL-Challenge/assets/123602109/532cafa3-633e-4843-95be-0035726bb9ab)
 
 ***
+
+Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Customer%20Transactions.md) to view the Customer Transactions solution!
