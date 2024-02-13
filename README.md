@@ -10,7 +10,8 @@
 
 ## 📕  Table Of Contents
 ● [🍜 Case Study #1 - Danny's Diner](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%231%20-%20Dannys%20Diner/Dannys%20Diner%20Solution.md)  
-● [🍕 Case Study #2 - Pizza Runner](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/README.md)
+● [🍕 Case Study #2 - Pizza Runner](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/README.md)  
+● [🏦 Case Study #4 - Data Bank](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/README.md)
 
 ---
 
@@ -36,6 +37,25 @@ Danny was sold on the idea, but he knew that pizza alone was not going to help h
 Danny started by recruiting “runners” to deliver fresh pizza from Pizza Runner Headquarters (otherwise known as Danny’s house) and also maxed out his credit card to pay freelance developers to build a mobile app to accept orders from customers.
 
 ### View full case study introduction [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%232%20-%20Pizza%20Runner/README.md)
+
+---
+## 🏦 Case Study #4 - Data Bank  
+<p align="center">
+  <img width=40% height=40%" src="https://8weeksqlchallenge.com/images/case-study-designs/4.png">
+
+  There is a new innovation in the financial industry called Neo-Banks: new aged digital only banks without physical branches.
+
+Danny thought that there should be some sort of intersection between these new age banks, cryptocurrency and the data world…so he decides to launch a new initiative - Data Bank!
+
+Data Bank runs just like any other digital bank - but it isn’t only for banking activities, they also have the world’s most secure distributed data storage platform!
+
+Customers are allocated cloud data storage limits which are directly linked to how much money they have in their accounts. There are a few interesting caveats that go with this business model, and this is where the Data Bank team need your help!
+
+The management team at Data Bank want to increase their total customer base - but also need some help tracking just how much data storage their customers will need.
+
+This case study is all about calculating metrics, growth and helping the business analyse their data in a smart way to better forecast and plan for their future developments!
+
+### View full case study introduction [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/README.md)
 ---
 
 ## ✨ Contribution
