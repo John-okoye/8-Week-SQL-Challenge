@@ -88,7 +88,7 @@ The Data Bank team wants you to use the outputs generated from the above section
 
 ***
 
-Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Customer%20Nodes%20Exploration.md) to view the solutions for this case study!
+#### Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Customer%20Nodes%20Exploration.md) to view the solutions for this case study!
 
 ### Click [here](https://app.powerbi.com/view?r=eyJrIjoiYmE3MjM4ODctMWZlNy00NDVhLTg3ODAtNzliOGYyZjkyYzBmIiwidCI6IjVkNGJmZjEzLTY5YjItNDAzMy1iODI3LTQzODRmNzAxZDRkNiJ9) to view the dashboard for this case study!
 
