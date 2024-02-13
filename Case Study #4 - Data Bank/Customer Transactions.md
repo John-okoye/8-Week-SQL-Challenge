@@ -80,7 +80,7 @@ ORDER BY customer_id, EXTRACT(MONTH FROM MIN(txn_date))
 ```
 #### Query Result:  
 ![image](https://github.com/John-okoye/8-Week-SQL-Challenge/assets/123602109/a03a1055-4ab8-4e95-9a1a-4c37655b8327)
-*Total Query result is 1720 rows
+*Total Query result is 1720 rows*
 ####
 
 ***
