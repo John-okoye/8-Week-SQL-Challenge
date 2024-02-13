@@ -201,3 +201,4 @@ ORDER BY month_id
 #### Query Result:  
 ![image](https://github.com/John-okoye/8-Week-SQL-Challenge/assets/123602109/b1b0b2a4-84bb-4c08-8399-5a57159375b2)
 ***
+### Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Extension%20Request%20(Slides).md) to view the Extension Request(Presentation SLides)!
