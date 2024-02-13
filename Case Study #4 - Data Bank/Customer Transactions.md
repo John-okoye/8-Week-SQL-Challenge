@@ -111,3 +111,4 @@ FROM cte
 
 
 ***
+### Click [here](https://github.com/John-okoye/8-Week-SQL-Challenge/blob/main/Case%20Study%20%234%20-%20Data%20Bank/Data%20Allocation%20Challenge.md) to view the Data Allocation Challenge solution!
