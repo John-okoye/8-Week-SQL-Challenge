@@ -65,7 +65,9 @@ GROUP BY customer_id
 
 ***
 ## Data Allocation Options
-*Allocation Rate: 2GB per $100 + 0.5GB for customers with positive balances and 0.5GB for customers with credit balances*
+#### - 2GB per $100 + 0.5GB for customers with a positive balance 
+#### - 0.5GB for customers wih credit balances. 
+#### Extra 0.5GB for customers with a positive balance is so we can say that any customer with 0.5GB is a customer with negative or 0 balance.
 
 ### Option 1: Data is allocated based off the amount of money at the end of the previous month
 ```sql
